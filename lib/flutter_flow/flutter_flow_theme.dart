@@ -108,13 +108,13 @@ class LightModeTheme extends FlutterFlowTheme {
   late Color tertiary = const Color(0xFFEE8B60);
   late Color alternate = const Color(0xFFE0E3E7);
   late Color primaryText = const Color(0xFFFFFFFF);
-  late Color secondaryText = const Color(0xFF57636C);
+  late Color secondaryText = const Color(0xFFF2F2F2);
   late Color primaryBackground = const Color(0xFF464646);
   late Color secondaryBackground = const Color(0xFFFFFFFF);
   late Color accent1 = const Color(0x4C4B39EF);
   late Color accent2 = const Color(0x4D39D2C0);
   late Color accent3 = const Color(0x4DEE8B60);
-  late Color accent4 = const Color(0xCCFFFFFF);
+  late Color accent4 = const Color(0xFFBABABA);
   late Color success = const Color(0xFF249689);
   late Color warning = const Color(0xFFF9CF58);
   late Color error = const Color(0xFFFF5963);
@@ -159,107 +159,107 @@ class ThemeTypography extends Typography {
 
   final FlutterFlowTheme theme;
 
-  String get displayLargeFamily => 'Outfit';
+  String get displayLargeFamily => 'Roboto Slab';
   TextStyle get displayLarge => GoogleFonts.getFont(
-        'Outfit',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 64.0,
       );
-  String get displayMediumFamily => 'Outfit';
+  String get displayMediumFamily => 'Roboto Slab';
   TextStyle get displayMedium => GoogleFonts.getFont(
-        'Outfit',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 44.0,
       );
-  String get displaySmallFamily => 'Outfit';
+  String get displaySmallFamily => 'Roboto Slab';
   TextStyle get displaySmall => GoogleFonts.getFont(
-        'Outfit',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.w600,
         fontSize: 36.0,
       );
-  String get headlineLargeFamily => 'Outfit';
+  String get headlineLargeFamily => 'Roboto Slab';
   TextStyle get headlineLarge => GoogleFonts.getFont(
-        'Outfit',
+        'Roboto Slab',
         color: theme.primaryText,
-        fontWeight: FontWeight.w600,
-        fontSize: 32.0,
+        fontWeight: FontWeight.bold,
+        fontSize: 29.0,
       );
-  String get headlineMediumFamily => 'Outfit';
+  String get headlineMediumFamily => 'Roboto Slab';
   TextStyle get headlineMedium => GoogleFonts.getFont(
-        'Outfit',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 24.0,
       );
-  String get headlineSmallFamily => 'Outfit';
+  String get headlineSmallFamily => 'Roboto Slab';
   TextStyle get headlineSmall => GoogleFonts.getFont(
-        'Outfit',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.w500,
         fontSize: 24.0,
       );
-  String get titleLargeFamily => 'Outfit';
+  String get titleLargeFamily => 'Roboto Slab';
   TextStyle get titleLarge => GoogleFonts.getFont(
-        'Outfit',
-        color: theme.primaryText,
+        'Roboto Slab',
+        color: theme.secondaryText,
         fontWeight: FontWeight.w500,
-        fontSize: 22.0,
+        fontSize: 20.0,
       );
-  String get titleMediumFamily => 'Readex Pro';
+  String get titleMediumFamily => 'Roboto Slab';
   TextStyle get titleMedium => GoogleFonts.getFont(
-        'Readex Pro',
+        'Roboto Slab',
         color: theme.info,
         fontWeight: FontWeight.normal,
         fontSize: 18.0,
       );
-  String get titleSmallFamily => 'Readex Pro';
+  String get titleSmallFamily => 'Roboto Slab';
   TextStyle get titleSmall => GoogleFonts.getFont(
-        'Readex Pro',
+        'Roboto Slab',
         color: theme.info,
         fontWeight: FontWeight.w500,
         fontSize: 16.0,
       );
-  String get labelLargeFamily => 'Readex Pro';
+  String get labelLargeFamily => 'Roboto Slab';
   TextStyle get labelLarge => GoogleFonts.getFont(
-        'Readex Pro',
+        'Roboto Slab',
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 16.0,
+        fontSize: 20.0,
       );
-  String get labelMediumFamily => 'Readex Pro';
+  String get labelMediumFamily => 'Roboto Slab';
   TextStyle get labelMedium => GoogleFonts.getFont(
-        'Readex Pro',
-        color: theme.secondaryText,
+        'Roboto Slab',
+        color: theme.accent4,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
-  String get labelSmallFamily => 'Readex Pro';
+  String get labelSmallFamily => 'Roboto Slab';
   TextStyle get labelSmall => GoogleFonts.getFont(
-        'Readex Pro',
-        color: theme.secondaryText,
-        fontWeight: FontWeight.normal,
+        'Roboto Slab',
+        color: theme.accent4,
+        fontWeight: FontWeight.bold,
         fontSize: 12.0,
       );
-  String get bodyLargeFamily => 'Readex Pro';
+  String get bodyLargeFamily => 'Roboto Slab';
   TextStyle get bodyLarge => GoogleFonts.getFont(
-        'Readex Pro',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 16.0,
       );
-  String get bodyMediumFamily => 'Readex Pro';
+  String get bodyMediumFamily => 'Roboto Slab';
   TextStyle get bodyMedium => GoogleFonts.getFont(
-        'Readex Pro',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 14.0,
       );
-  String get bodySmallFamily => 'Readex Pro';
+  String get bodySmallFamily => 'Roboto Slab';
   TextStyle get bodySmall => GoogleFonts.getFont(
-        'Readex Pro',
+        'Roboto Slab',
         color: theme.primaryText,
         fontWeight: FontWeight.normal,
         fontSize: 12.0,
